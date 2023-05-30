@@ -1,0 +1,128 @@
+body {
+  background-color: #0a0a4c;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.leftheader {
+  font-size: 30px;
+}
+
+nav {
+  box-shadow: 1px 1px 5px #2a1e54;
+  background-color: #17175f;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  margin: 0px 20px;
+}
+
+nav ul a :hover {
+  color: rgb(210, 210, 239);
+  font-size: 1.05rem;
+}
+
+main {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0px 50px;
+}
+
+.leftsection {
+  margin-top: 30px;
+  height: 300px;
+  width: 450px;
+  font-size: 2rem;
+  display: block;
+}
+
+.rightsection {
+  height: 300px;
+  width: 30%;
+}
+/* .secondSection {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.secondheader {
+  color: #cbc80e;
+  margin: 35px 0px 35px 200px;
+  font-size: 2rem;
+}
+
+.span {
+  color: #696565;
+  font-size: 12px;
+  margin: 5px 0px 60px;
+}
+.main2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.thirdDiv {
+  margin: 35px 0px 55px 200px;
+}
+.thirdDiv ul li {
+  margin: 10px;
+}
+.github{
+  color: white;
+  text-decoration: none;
+}
+
+.footerMain {
+  background-color: #17175f;
+  height: 180px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  box-shadow: -1px -1px 2px #2a1e54;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 55px;
+}
+.footerMain div ul li {
+  color: #ffffff;
+  margin: 5px;
+  list-style: none;
+  font-size: 12px;
+}
+.div1 {
+  cursor: pointer;
+}
+.div2 {
+  cursor: pointer;
+}
+.div3 {
+  cursor: pointer;
+}
+.copyright{
+  font-size: 10px;
+  width: 100%;
+  margin: auto;
+  background-color: #17175f;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #696565;
+}
